@@ -4,17 +4,17 @@
 using namespace std;
 
 int main() {
-    char list [10][20];
-    char name[20];
-    int a=0;
+int pos ;
+    char a[10][20],f[1][20];
     for(int i=0;i<10;i++){
-        cin>>list[i];
+        cin>>a[i];
     }
-    cin>>name;
-    if(res(list,name,a)){
-        cout <<a;
+    cin>>f[0];
+    
+    if(ricerca(a,f,pos)){
+        cout<<pos<<endl;
     }else{
-        cout<<"non presente";
+        cout<<"non presente"<<endl;
     }
     return 0;
 }
