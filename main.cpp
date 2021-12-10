@@ -4,13 +4,17 @@
 using namespace std;
 
 int main() {
-    char nomi [10][20];
-    char nome [1][20];
-    int d=array(nomi,nome);
-    if(d!=30){
-        cout<<d<<endl;
+    char list [10][20];
+    char name[20];
+    int a=0;
+    for(int i=0;i<10;i++){
+        cin>>list[i];
+    }
+    cin>>name;
+    if(res(list,name,a)){
+        cout <<a;
     }else{
-        cout<< "non presente"<<endl;
+        cout<<"non presente";
     }
     return 0;
 }
