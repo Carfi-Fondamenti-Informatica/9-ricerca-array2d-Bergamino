@@ -4,5 +4,5 @@
 
 #ifndef ESERCITAZIONE_9_NOMI_LIB_H
 #define ESERCITAZIONE_9_NOMI_LIB_H
-int array(char a [10][20],char b[1][20]);
+int res(char[][20],char[],int&);
 #endif //ESERCITAZIONE_9_NOMI_LIB_H
